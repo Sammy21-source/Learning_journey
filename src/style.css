@@ -4,8 +4,13 @@
   height: 5rem;
   position: fixed;
   top: 0px;
-  right: 0px;
-  left: 0px;
+  right: 8px;
+  left: 8px;
+}
+a{
+  color: white;
+  font-weight: bold;
+  font-size: larger;
 }
 .right{
   display: flex;
@@ -22,6 +27,7 @@
 }
 .logo{
   width: 3rem;
+  margin-left: 10px;
 }
 .about{
   display: inline-block;
@@ -38,19 +44,22 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 7rem;
+  background-color: rgb(145, 205, 241);
 }
 .b_contact{
   height: 3rem;
   width: 7rem;
   color: white;
   background-color:rgba(0, 82, 90, 1);
+  margin: 3px 0px 0px 10px;
 }
 p{
 }
 h1{
 font-size:45px;
 font-weight: 450;
-color: grey;
+color: rgb(78, 137, 161);
+margin-left: 5px;
 }
 .intro{
   font-size: larger;
@@ -58,7 +67,8 @@ color: grey;
   font-family: Helvetica, sans-serif ;
   font-weight: 300;
   line-height: 1.5rem;
-  color: rgba(0, 31, 49, 1);
+  color: rgb(13, 112, 170);
+  margin-left: 5px;
 }
 .intro2{
   font-size: larger;
@@ -66,7 +76,8 @@ color: grey;
   font-family: Helvetica, sans-serif ;
   font-weight: 300;
   line-height: 1.5rem;
-  color: rgba(0, 31, 49, 1);
+  color:  rgb(13, 112, 170);
+  margin-left: 5px;
 }
 .last{
   display: block;
