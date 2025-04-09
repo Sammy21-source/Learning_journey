@@ -1,3 +1,28 @@
+.header{
+  display: flex;
+  background-color: #c4f3ed;
+  height: 5rem;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+.right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+  margin-right: 10px;
+}
+.left{
+  flex: 1;
+  display: flex;
+  align-items: center;
+ 
+}
+.logo{
+  width: 3rem;
+}
 .about{
   display: inline-block;
   width: 40rem;

@@ -1,7 +1,11 @@
 .header{
   display: flex;
-  background-color: aqua;
-  height: 4rem;
+  background-color: #c4f3ed;
+  height: 5rem;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
 }
 .right{
   display: flex;
@@ -24,7 +28,29 @@ h1{
   text-decoration: underline;
 }
 .list_heading{
-  font-size: larger;
-  font-weight: bold;
+  font-size:3rem;
+  font-weight: bolder;
   font-style: italic;
+  
+  text-decoration: underline;
+}
+.tempimg{
+  width: 50%;
+}
+.template{
+  display: flex;
+  background-color: aliceblue;
+  
+
+}
+.olist{
+  flex: 1;
+  flex-shrink:;
+}
+.skills{
+  display: grid;
+  grid-template-columns: ;
+  row-gap: 30px;
+  background-color: rgb(220, 233, 246);
+  margin-top: 5rem;
 }
