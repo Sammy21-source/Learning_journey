@@ -1,6 +1,6 @@
 .header{
   display: flex;
-  background-color: #c4f3ed;
+  background-color: #c4dff3;
   height: 5rem;
   position: fixed;
   top: 0px;
@@ -37,6 +37,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 7rem;
 }
 .b_contact{
   height: 3rem;

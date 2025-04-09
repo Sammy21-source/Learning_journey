@@ -1,11 +1,11 @@
 .header{
   display: flex;
-  background-color: #c4f3ed;
+  background-color: #c4dff3;
   height: 5rem;
   position: fixed;
   top: 0px;
-  right: 0px;
-  left: 0px;
+  right: 8px;
+  left: 8px;
 }
 .right{
   display: flex;
@@ -22,6 +22,7 @@
 }
 .logo{
   width: 3rem;
+  margin-left: 10px;
 }
 h1{
   text-align: center;
@@ -31,8 +32,8 @@ h1{
   font-size:3rem;
   font-weight: bolder;
   font-style: italic;
-  
   text-decoration: underline;
+  color: #3b75cb;
 }
 .tempimg{
   width: 50%;
@@ -45,7 +46,7 @@ h1{
 }
 .olist{
   flex: 1;
-  flex-shrink:;
+  min-width: 5rem;
 }
 .skills{
   display: grid;
@@ -53,4 +54,13 @@ h1{
   row-gap: 30px;
   background-color: rgb(220, 233, 246);
   margin-top: 5rem;
+}
+ul li{
+  color: rgb(138, 138, 237);
+  font-weight: 300;
+  font-style: italic;
+  font-size: larger;
+}
+a{
+  color: white;
 }
