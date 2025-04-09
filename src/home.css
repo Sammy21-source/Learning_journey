@@ -1,0 +1,21 @@
+.header{
+  display: flex;
+  background-color: aqua;
+  height: 4rem;
+}
+.right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+  margin-right: 10px;
+}
+.left{
+  flex: 1;
+  display: flex;
+  align-items: center;
+ 
+}
+.logo{
+  width: 3rem;
+}
