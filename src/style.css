@@ -1,12 +1,46 @@
 .about{
   display: inline-block;
   width: 40rem;
+  flex: 1;
+  max-width: 50rem;
 }
 .my_img{
-  width: 30rem;
+  width: 35rem;
+
 }
 .complete{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.b_contact{
+  height: 3rem;
+  width: 7rem;
+  color: white;
+  background-color:rgb(32, 109, 191);
+}
+p{
+}
+h1{
+font-size:45px;
+font-weight: 450;
+color: grey;
+}
+.intro{
+  font-size: larger;
+  margin-bottom: 0px;
+  font-family: Helvetica, sans-serif ;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+.intro2{
+  font-size: larger;
+  margin: 5px 0px 80px 0px;
+  font-family: Helvetica, sans-serif ;
+  font-weight: 300;
+  line-height: 1.5rem;
+
+}
+.last{
+  display: block;
 }
