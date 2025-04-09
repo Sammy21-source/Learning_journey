@@ -19,3 +19,12 @@
 .logo{
   width: 3rem;
 }
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+.list_heading{
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+}
