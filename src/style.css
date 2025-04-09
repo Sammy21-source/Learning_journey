@@ -1,3 +1,12 @@
 .about{
   display: inline-block;
+  width: 40rem;
+}
+.my_img{
+  width: 30rem;
+}
+.complete{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
